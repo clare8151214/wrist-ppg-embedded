@@ -1,0 +1,20 @@
+.pio/
+.venv/
+__pycache__/
+*.pyc
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/.browse.c_cpp.db*
+
+# Local documentation is intentionally excluded from this code-only repository.
+/docs/
+*.md
+*.doc
+*.docx
+*.pdf
+
+# Measurements, generated reports, local settings and credentials.
+/logs/
+/.vscode/
+.env
+.env.*
